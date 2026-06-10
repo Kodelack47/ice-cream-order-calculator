@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME</title>
+    <link rel="stylesheet" href="my.css">
+    
+</head>
+<body>
+<label>
+    Number of scoops: <input type="number" id="scoops" min="1" max="4">
+</label>
+    <br><br>
+    <label>
+        <input id="cone"   name="display" value="cone" type="radio" checked> Cone
+    </label>
+    <label>
+        <input id="cup" name="display" value="cup"  type="radio"> Cup
+    </label>
+
+    
+    <fieldset id="topping" style="display: none;">
+       <legend>Topping</legend>
+        <label>
+            <input id="Sprinkles" type="checkbox">Sprinkles ($0.50)
+        </label><br>
+        <label>
+            <input id="HotFudge" type="checkbox"> Hot Fudge ($1.25)
+        </label><br>
+        <label>
+            <input id="WhippedCream" type="checkbox">Whipped Cream($0.25)
+        </label><br>
+        <label>
+            <input id="Cherry" type="checkbox"> Cherry ($0.25)
+        </label>
+    </fieldset>
+    
+    <p>
+        <button id="orderEstimate">Submit Order</button>
+    </p>
+
+    <table id="output">
+        <tr><th>Base Price: </th><td id="price"></td></tr>
+        <tr><th>Tax:        </th><td id="tax"></td></tr>
+        <tr><th>Total Due:  </th><td id="total"></td></tr>
+    </table>
+
+</body>
+<script src="cost.js"></script>
+<script src="main.js"></script>
+</html>
