@@ -1,3 +1,4 @@
+/* Author: Ousmana Tunkara · github.com/Kodelack47 · Ice Cream Order Calculator */
 
 //window.onload = 
 

@@ -1,3 +1,4 @@
+/* Author: Ousmana Tunkara · github.com/Kodelack47 · Ice Cream Order Calculator */
 // function getRateData( orderEstimate, Sprinkles, HotFudge,WhippedCream, Cherry,) {
 //     //OUPUT VARIABLES
 //     let Sprinkles = 0;

@@ -34,3 +34,9 @@ A fun interactive JavaScript project that calculates ice cream orders with custo
 - Form handling
 - Basic math calculations
 - User interaction feedback
+
+## Author
+
+**Ousmana Tunkara** · [GitHub @Kodelack47](https://github.com/Kodelack47)
+
+Licensed under the [MIT License](LICENSE).
