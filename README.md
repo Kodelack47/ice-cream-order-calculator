@@ -2,7 +2,7 @@
 
 A fun interactive JavaScript project that calculates ice cream orders with customizable options.
 
-**GitHub:** [github.com/Kodelack47/IceCream](https://github.com/Kodelack47/IceCream)
+**GitHub:** [github.com/Kodelack47/ice-cream-order-calculator](https://github.com/Kodelack47/ice-cream-order-calculator)
 
 ## Features
 
